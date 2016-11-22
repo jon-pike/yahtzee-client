@@ -13,7 +13,7 @@ before_install:
 
 script:
     - docker pull maven:3.3.9-jdk-8-alpine
-    - ./build.sh
+    - ./build-image.sh
     - ./up.sh
     - sleep 3 # crude way to wait till container is up
     - ./run.sh
