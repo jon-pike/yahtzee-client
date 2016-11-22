@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>sparkExample</groupId>
-  <artifactId>sparkExample</artifactId>
+  <artifactId>sparkClient</artifactId>
   <version>1.0-SNAPSHOT</version>
 
   <dependencies>
