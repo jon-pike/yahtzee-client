@@ -11,7 +11,10 @@ public class Service {
         port(80);
         get("/", "application/json", (req, res) -> {
             HashMap<String,Object> result = new HashMap<String,Object>();
-            result.put( "message", Greeting.message() );
+            
+            DiceRoller roller = new ServiceDiceRoller();
+                
+            result.put( "message", roller.roll());
             return new Gson().toJson(result);
         });
     }
