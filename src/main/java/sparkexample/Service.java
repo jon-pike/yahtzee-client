@@ -15,5 +15,4 @@ public class Service {
             return new Gson().toJson(result);
         });
     }
-
 }
