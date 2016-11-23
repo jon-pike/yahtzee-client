@@ -3,8 +3,8 @@ version: '2'
 
 services:
   spark_client:
-    image: jonpike/yahtzee_client
-    container_name: yahtzee_client
+    image: jonpike/yahtzee-client
+    container_name: yahtzee-client
     ports: [ "80:80" ]
     build:
       context: .
